@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    margin-left: 40rem;
+}
+nav{
+    background-color: rgb(59, 54, 54);
+    height: 7rem;
+    width: 50rem;
+    margin: 6rem 20rem;
+    border-radius: 3rem;
+    padding-left: 10rem;
+    padding-top: 5rem;
+}
+#password{
+    background-color: white;
+    height: 2rem;
+    width: 30rem;
+    border-radius: 5px;
+    border-right: none;
+}
+#copy{
+    background-color: rgb(85, 74, 200);
+    height: 2.4rem;
+    width: 5rem;
+    border-radius: 5px;
+    border: none;
+    color: orange;
+    font-size: large;
+}
+#copy:hover{cursor: pointer;}
+label{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: large;
+}
+#number ,#character{
+    height: 15px;
+    width: 15px;
+}
+#refresh{
+    background-color:rgb(59, 54, 54);
+    border: none;
+    margin-left: 20px;
+}
+#refresh :hover
+{ 
+    cursor: pointer;
+}
